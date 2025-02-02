@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <link rel="shortcut icon" href="./Images/♡ Anime pfp♡.jpeg" type="image/x-icon" />
+
+    <title>Raff | Click Circle</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"
+    />
+
+    <link rel="stylesheet" href="css/1.css" />
+
+    <script>
+      window.console = window.console || function (t) {};
+    </script>
+
+    <script>
+      if (document.location.search.match(/type=embed/gi)) {
+        window.parent.postMessage("resize", "*");
+      }
+    </script>
+  </head>
+
+  <body translate="no">
+    <div class="mask"></div>
+    <div class="loadingtext">loading please wait...</div>
+    <div class="audiofixer">
+      <div class="audiofixer_inner">Click anywhere to initiate the awesome</div>
+    </div>
+    <div class="main_menu">
+      <div class="shake">
+        <div class="loaded__inner">
+          <img
+            class="a"
+            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/countdown_circle.png"
+          />
+          <h1 style="font-size: 30px">Click Circle</h1>
+          <br />
+          <h1>A game by raffneptune</h1>
+          <div class="play">
+            <div class="play_inner">
+              <i class="ion-mouse"></i>
+              Click to start
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="reaction">
+      <div class="mistake"></div>
+      <div class="overlay"></div>
+      <div class="tutorial">
+        <div class="tutorial_inner">
+          <div class="close_tutorial">
+            <i class="ion-close-round"></i>
+          </div>
+          <img class="header" src="images/tutorial_header.png" />
+          <div class="slider_wrapper">
+            <div class="slider_wrapper__inner">
+              <div class="slide slide_1">
+                <h2>CLICK THE NODES</h2>
+                <img
+                  class="t1"
+                  src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/t1.png"
+                />
+                <p>
+                  Power the reaction bar before the time runs out by clicking on
+                  the lit nodes before they decay. The faster you get the nodes,
+                  the more charge will be added to the reaction bar.
+                </p>
+                <div class="tutorial_inner__button">next</div>
+              </div>
+              <div class="slide slide_2">
+                <h2>COLLECT POWER UPS</h2>
+                <img
+                  class="t9"
+                  src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/t9.png"
+                />
+                <p>
+                  Collect various powerups to help you win. There are three
+                  types. Shrink the grid, add extra time +2s and instant full
+                  multiplier!
+                </p>
+                <div class="tutorial_inner__button">next</div>
+              </div>
+              <div class="slide slide_3">
+                <h2>GET COMBOS</h2>
+                <img
+                  class="t10"
+                  src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/t10.png"
+                />
+                <p>
+                  Increase your multiplier by hitting nodes consistently. The
+                  more you get in a row, the higher your multiplier will be.
+                  However, if you miss a node your multiplier is reset!
+                </p>
+                <div class="tutorial_inner__letsgo">lets go</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="summary">
+        <div class="summary_inner">
+          <img
+            class="header"
+            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/summary_header.png"
+          />
+          <div class="summary_stats">
+            <div class="st_nodes">
+              <img
+                class="lev_icon"
+                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/game_icon_full.png"
+              />
+              <span class="title">Nodes</span>
+              <span class="stat">0</span>
+              <span class="time">x 100</span>
+              <span class="total">0</span>
+            </div>
+            <div class="st_powerups">
+              <img
+                class="lev_icon"
+                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/game_icon_full.png"
+              />
+              <span class="title">Powerups</span>
+              <span class="stat">0</span>
+              <span class="time">x 100</span>
+              <span class="total">0</span>
+            </div>
+            <div class="st_timeremaining">
+              <img
+                class="lev_icon"
+                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/game_icon_full.png"
+              />
+              <span class="title">Time remaining</span>
+              <span class="stat">0</span>
+              <span class="time">x 100</span>
+              <span class="total">0</span>
+            </div>
+            <div class="st_reactionbar">
+              <img
+                class="lev_icon"
+                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/game_icon_full.png"
+              />
+              <span class="title">Reaction points</span>
+              <span class="stat">0</span>
+              <span class="time">x 1</span>
+              <span class="total">0</span>
+            </div>
+            <div class="st_gamepoints">
+              <span class="title">Game points</span>
+              <span class="stat">0</span>
+            </div>
+            <div class="sum_share">
+              <div class="sum_share__">
+                <i class="ion-social-"></i>
+                🚫
+              </div>
+              <div class="sum_share__abcde">
+                <a
+                  href="https://www.instagram.com/raffneptune"
+                  target="_blank"
+                >
+                  <i class="ion-social-instagram"></i>
+                  Follow Me On Instagram
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="summary_inner__next">Next level</div>
+        </div>
+      </div>
+      <div class="gameover">
+        <div class="gameover_inner">
+          <img
+            class="header"
+            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/game_over_header.png"
+          />
+          <div class="go_stats">
+            <div class="go_level">
+              <img
+                class="lev_icon"
+                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/game_icon_full.png"
+              />
+              <span>Level</span>
+              <span class="stat">0</span>
+            </div>
+            <div class="go_hits">
+              <img
+                class="lev_icon"
+                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/game_icon_full.png"
+              />
+              <span>Node hits</span>
+              <span class="stat">0</span>
+            </div>
+            <div class="go_bonus">
+              <img
+                class="lev_icon"
+                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/game_icon_full.png"
+              />
+              <span>Powerups</span>
+              <span class="stat">0</span>
+            </div>
+            <div class="go_points">
+              <span>Total score</span>
+              <span class="stat_s">0</span>
+            </div>
+            <div class="go_share">
+              <div class="go_share__">
+                <i class="ion-social-"></i>
+                🚫
+              </div>
+              <div class="go_share__abcde">
+                <a
+                  href="https://www.instagram.com/raffneptune"
+                  target="_blank"
+                >
+                  <i class="ion-social-instagram"></i>
+                  Follow Me On Instagram
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="gameover_inner__button">try again</div>
+        </div>
+      </div>
+      <section class="countdown">
+        <img src="images/countdown_circle.png" />
+        <div class="number">3</div>
+      </section>
+      <section class="game orig">
+        <div class="game_hud">
+          <div class="game_hud__left">
+            <div class="game_globaltimer">
+              <img src="images/node_count.png" />
+              <span class="hits">0</span>/<span class="t_hits">0</span>
+              <span class="t_nodes">NODES</span>
+            </div>
+          </div>
+          <div class="game_hud__middle">
+            <img src="images/reaction.png" />
+          </div>
+          <div class="game_hud__right">
+            <img class="lev_icon" src="images/game_icon_full.png" />
+            <div class="game_level">Level: <span>1</span></div>
+          </div>
+        </div>
+        <div class="game_inner__mute">
+          <i class="a_sound fa fa-volume-up" aria-hidden="true"></i>
+          <i class="fa fa-volume-off" aria-hidden="true"></i>
+        </div>
+        <div class="game_inner__mute--text">Sound</div>
+        <div class="game_inner__song">
+          <i class="fa fa-play" aria-hidden="true"></i>
+          <i class="a_song fa fa-pause" aria-hidden="true"></i>
+        </div>
+        <div class="game_inner__song--text">Music</div>
+        <div class="game_inner__time">
+          <svg
+            id="layer_1"
+            space="preserve"
+            style="enable-background: new 0 0 138.5 58.5"
+            version="1.1"
+            viewbox="0 0 138.5 58.5"
+            x="0px"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            xmlns="http://www.w3.org/2000/svg"
+            y="0px"
+          >
+            <style>
+              .st0 {
+                fill: transparent;
+              }
+            </style>
+            <g>
+              <path
+                class="st0"
+                d="M108.8,55.5H29.2C14.8,55.5,3,43.7,3,29.3v0C3,14.8,14.8,3,29.2,3h79.5C123.2,3,135,14.8,135,29.2v0&#x000A;		C135,43.7,123.2,55.5,108.8,55.5z"
+              ></path>
+            </g>
+          </svg>
+          <svg
+            id="svg1"
+            space="preserve"
+            style="enable-background: new 0 0 138.5 58.5"
+            version="1.1"
+            viewbox="0 0 138.5 58.5"
+            x="0px"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            xmlns="http://www.w3.org/2000/svg"
+            y="0px"
+          >
+            <style>
+              .st0 {
+                fill: transparent;
+              }
+            </style>
+            <g>
+              <path
+                class="st0"
+                d="M108.8,55.5H29.2C14.8,55.5,3,43.7,3,29.3v0C3,14.8,14.8,3,29.2,3h79.5C123.2,3,135,14.8,135,29.2v0&#x000A;		C135,43.7,123.2,55.5,108.8,55.5z"
+              ></path>
+            </g>
+          </svg>
+          <p>180</p>
+          <i class="ion-chevron-up faster"></i>
+          <i class="ion-chevron-down slower"></i>
+        </div>
+        <div class="game_inner__multiplier">
+          <span class="x">x</span><span class="m">1</span>
+          <span>Multiplier</span>
+        </div>
+        <div class="bonus_wrap">
+          <div class="game_inner">
+            <div class="game_inner__center">
+              <div class="warning"></div>
+              <div class="level_timer">
+                <i class="fa fa-hourglass-o" aria-hidden="true"></i>
+                <span class="s">20</span> <span class="text">SECONDS</span>
+              </div>
+            </div>
+            <div class="nodes">
+              <div class="node_wrapper">
+                <div class="game_inner__node--hitbox"></div>
+                <div class="game_inner__node" node-id="node-1"></div>
+                <div class="combo_text">
+                  <img class="c_1" src="images/combo1.png" />
+                  <img class="c_2" src="images/combo2.png" />
+                  <img class="c_3" src="images/combo3.png" />
+                  <img class="c_4" src=images/combo4.png" />
+                </div>
+              </div>
+              <div class="node_wrapper">
+                <div class="game_inner__node--hitbox"></div>
+                <div class="game_inner__node" node-id="node-2"></div>
+                <div class="combo_text">
+                  <img class="c_1" src="images/combo1.png" />
+                  <img class="c_2" src="images/combo2.png" />
+                  <img class="c_3" src="images/combo3.png" />
+                  <img class="c_4" src="images/combo4.png" />
+                </div>
+              </div>
+              <div class="node_wrapper">
+                <div class="game_inner__node--hitbox"></div>
+                <div class="game_inner__node" node-id="node-3"></div>
+                <div class="combo_text">
+                  <img class="c_1" src="images/combo1.png" />
+                  <img class="c_2" src="images/combo2.png" />
+                  <imgimages/ src="images/combo3.png" />
+                  <img class="c_4" src="images/combo4.png" />
+                </div>
+              </div>
+              <div class="node_wrapper">
+                <div class="game_inner__node--hitbox"></div>
+                <div class="game_inner__node" node-id="node-4"></div>
+                <div class="combo_text">
+                  <img class="c_1" src="images/combo1.png" />
+                  <img class="c_2" src="images/combo2.png" />
+                  <img class="c_3"images/ />
+                  <img class="c_4" src="images/combo4.png" />
+                </div>
+              </div>
+              <div class="node_wrapper">
+                <div class="game_inner__node--hitbox"></div>
+                <div class="game_inner__node" node-id="node-5"></div>
+                <div class="combo_text">
+                  <img class="c_1" src="images/combo1.png" />
+                  <img class="c_2" src="images/combo2.png" />
+                  <img class="c_3" images/ class="c_4" src="images/combo4.png"
+                  />
+                </div>
+              </div>
+              <div class="node_wrapper">
+                <div class="game_inner__node--hitbox"></div>
+                <div class="game_inner__node" node-id="node-6"></div>
+                <div class="combo_text">
+                  <img class="c_1" src="images/combo1.png" />
+                  <img classimages/
+                  <img class="c_3" src="images/combo3.png" />
+                  <img class="c_4" src="images/combo4.png" />
+                </div>
+              </div>
+              <div class="node_wrapper">
+                <div class="game_inner__node--hitbox"></div>
+                <div class="game_inner__node" node-id="node-7"></div>
+                <div class="combo_text">
+                  <img class="c_1" src="images/combo1.png" />
+                  <img class="c_2" src="images/combo2.png" />
+                  <img class="c_3" src="images/combo3.png" />
+                  <img class="c_4" src="images/combo4.png" />
+                </div>
+              </div>
+              <div class="node_wrapper">
+                <div class="game_inner__node--hitbox"></div>
+                <div class="game_inner__node" node-id="node-8"></div>
+                <div class="combo_text">
+                  <img class="c_1" src="images/combo1.png" />
+                  <img class="c_2" src="images/combo2.png" />
+                  <img class="c_3" src="images/combo3.png" />
+                  <img class="c_4" src="images/combo4.png" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="game_bar">
+          <h2>
+            Reaction Bar - <span class="rp">0</span> /
+            <span class="rpn">1000</span>
+          </h2>
+          <div class="game_bar__outer">
+            <div class="game_bar__icon--empty">
+              <img src="images/game_icon_empty.png" />
+            </div>
+            <div class="game_bar__fill">
+              <canvas id="b" width="600px" height="300px"></canvas>
+            </div>
+            <div class="game_bar__triangle"></div>
+            <div class="game_bar__icon--full">
+              <img src="images/game_icon_full.png" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="footer">
+        <div class="footer_left">
+          Created by
+
+          <a
+            href="https://www.instagram.com/raffneptune"
+            target="_blank"
+            >raffneptune</a
+          >.
+        </div>
+        <div class="footer_">
+          <a href="#">
+            <i class="fa fa--square" aria-hidden="true"></i>
+            <span>🚫</span>
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script id="rendered-js" src="Javascript/1.js"></script>
+  </body>
+</html>
